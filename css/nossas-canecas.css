@@ -1,0 +1,121 @@
+.nossas-canecas {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.nossas-canecas h1 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #2a2a2a;
+  margin-bottom: 10px;
+}
+
+.nossas-canecas .subtitulo {
+  font-size: 18px;
+  color: #556;
+  margin-bottom: 50px;
+}
+
+.cards-container {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #fff;
+  width: 320px;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.12);
+  transition: 0.3s ease;
+}
+
+.card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.card h3 {
+  font-size: 22px;
+  margin: 15px;
+  font-weight: 600;
+  color: #2a2a2a;
+  text-align: left;
+}
+
+.card p {
+  font-size: 15px;
+  color: #555;
+  margin: 0 15px 20px 15px;
+  text-align: left;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 22px rgba(0, 0, 0, 0.5);
+}
+/* SEÇÃO: Por que escolher a Lala Personalizados */
+.porque-escolher {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.porque-escolher h1 {
+  font-size: 42px;
+  font-weight: 700;
+  color: #222;
+}
+
+.porque-escolher .destaque-lala {
+  background: linear-gradient(90deg, #48c774, #b68d72, #ff6f6f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.subtitulo-pq {
+  font-size: 18px;
+  color: #555;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.pq-cards-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.pq-card {
+  width: 260px;
+  padding: 25px;
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.12);
+  transition: 0.3s ease;
+}
+
+.pq-icon {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.pq-card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: #222;
+}
+
+.pq-card p {
+  font-size: 15px;
+  color: #555;
+}
+
+.pq-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0px 6px 22px rgba(0, 0, 0, 0.5);
+}

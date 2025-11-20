@@ -1,0 +1,46 @@
+.header {
+  background-color: #3067b6;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.left-header {
+  display: flex;
+  height: 100%;
+}
+
+.header-buttons {
+  height: 100%;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-size: 16px;
+  padding: 20px 12px;
+  transition: background-color 0.3s ease;
+}
+
+.header-buttons:hover {
+  background-color: #255599;
+}
+
+.social-media {
+  height: 40px;
+  width: auto;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+@media (max-width: 1024px) {
+  .header {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .left-header {
+    width: 100%;
+    justify-content: center;
+  }
+}
